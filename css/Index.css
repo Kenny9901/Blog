@@ -1,0 +1,86 @@
+﻿body {
+    background-color: #eae5e5;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+/*top and foot*/
+.header {
+    height: 70px;
+    background-image: url(../images/topbg.png);
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+.logo-title {
+    margin-left: 7%;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 70px;
+}
+.nav {
+    height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+    background-image: url(../images/navbg.png);
+    margin: 0;
+    padding-left: 6%;
+    border-bottom: 1px solid #d3d1d1;
+}
+/*menu*/
+.menu{
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #d3d1d1;
+    background-color: #fff;
+    width: 180px;
+}
+.accordion-group {
+    margin-bottom: 2px;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.accordion-title {
+    display: block;
+    padding: 8px 15px;
+    cursor: pointer;
+   	background-image: url(../images/left-title-bg.png);
+}
+.accordion-inner {
+    padding: 9px 15px;
+    border-top: 1px solid #e5e5e5;
+}
+.menu-icon {
+    width: 12%;
+}
+.menu-icon-child {
+    width: 10%;
+}
+.menu-title {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.menu-body {
+    margin-left: 5px;
+}
+.accordion-title:hover {
+    background-image: url(../images/left-title-bg-h.png);
+    text-decoration: none;
+    color: white !important;
+}
+.accordion-inner:hover {
+    background-image: url(../images/left-title-bg-h.png);
+    text-decoration: none;
+    color: white !important;
+    cursor: pointer;
+}
+/*common*/
+a:link{text-decoration: none;   /* 指正常的未被访问过的链接*/}
+a:visited{text-decoration: none; /*指已经访问过的链接*/}
+a:hover{text-decoration: none;/*指鼠标在链接*/}
+a:active{text-decoration:none;/* 指正在点的链接*/ }
